@@ -15,6 +15,7 @@
 		9C2B3BD81DD2BF9E00F347F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2B3BD61DD2BF9E00F347F8 /* LaunchScreen.storyboard */; };
 		9C2B3BE31DD2BF9E00F347F8 /* NSNotificationCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B3BE21DD2BF9E00F347F8 /* NSNotificationCenterTests.m */; };
 		9C2B3BEE1DD2BF9E00F347F8 /* NSNotificationCenterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B3BED1DD2BF9E00F347F8 /* NSNotificationCenterUITests.m */; };
+		9C2B3BFD1DD2BFFF00F347F8 /* QFMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B3BFC1DD2BFFF00F347F8 /* QFMViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9C2B3BE91DD2BF9E00F347F8 /* NSNotificationCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSNotificationCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C2B3BED1DD2BF9E00F347F8 /* NSNotificationCenterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNotificationCenterUITests.m; sourceTree = "<group>"; };
 		9C2B3BEF1DD2BF9E00F347F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C2B3BFB1DD2BFFF00F347F8 /* QFMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFMViewController.h; sourceTree = "<group>"; };
+		9C2B3BFC1DD2BFFF00F347F8 /* QFMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFMViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				9C2B3BCC1DD2BF9E00F347F8 /* AppDelegate.m */,
 				9C2B3BCE1DD2BF9E00F347F8 /* ViewController.h */,
 				9C2B3BCF1DD2BF9E00F347F8 /* ViewController.m */,
+				9C2B3BFB1DD2BFFF00F347F8 /* QFMViewController.h */,
+				9C2B3BFC1DD2BFFF00F347F8 /* QFMViewController.m */,
 				9C2B3BD11DD2BF9E00F347F8 /* Main.storyboard */,
 				9C2B3BD41DD2BF9E00F347F8 /* Assets.xcassets */,
 				9C2B3BD61DD2BF9E00F347F8 /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C2B3BD01DD2BF9E00F347F8 /* ViewController.m in Sources */,
+				9C2B3BFD1DD2BFFF00F347F8 /* QFMViewController.m in Sources */,
 				9C2B3BCD1DD2BF9E00F347F8 /* AppDelegate.m in Sources */,
 				9C2B3BCA1DD2BF9E00F347F8 /* main.m in Sources */,
 			);

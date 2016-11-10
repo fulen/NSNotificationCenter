@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "QFMViewController.h"
+
 
 @interface ViewController ()
 
@@ -16,7 +18,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor grayColor];
+    
+    
+    QFMViewController *qfm = [[QFMViewController alloc] init];
+    NSDictionary *userInfo = @{@"dic1":@"zheshidic1",@"dic2":@"zheshidic2"};
+    NSNotification *notification = [NSNotification notificationWithName:@"远程通知" object:nil userInfo:userInfo];
+    [[NSNotificationCenter defaultCenter] postNotification:notification];
+    
+    
+    [self.navigationController pushViewController:qfm animated:YES];
 }
 
 
